@@ -17,7 +17,7 @@ class CardWidget extends StatelessWidget {
         // Navigator.push(
         //     context, MaterialPageRoute(builder: (context) => BookingScreen()));
         Navigator.of(context, rootNavigator: true)
-            .push(MaterialPageRoute(builder: (context) => BookingStepper()));
+            .push(MaterialPageRoute(builder: (context) => BookingScreen()));
       },
       child: Card(
           child: Column(
