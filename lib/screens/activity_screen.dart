@@ -9,7 +9,7 @@ class ActivityScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Activities"),
+        title: Text("List of Activities"),
       ),
     );
   }
