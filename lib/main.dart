@@ -7,9 +7,6 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:flutter_application_1/screens/screens.dart';
 
 void main() {
-  // Stripe.publishableKey =
-  //     "pk_test_51MY3SQEas2niiHpBDcwsS1NUZ3SBQBxkvCxAJPo1dT4ACGHld0HZt2b37QqS2K7uljYGu4gHFf0b3dY26FL6Lj4100FsiYEkTC";
-
   runApp(const MyApp());
 }
 
