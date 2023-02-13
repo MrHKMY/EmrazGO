@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       scrollBehavior: MyCustomScrollBehavior(),
-      home: LoginScreen(),
+      home: SplashScreen(),
       // home: ProvidedStylesExample(
       //   menuScreenContext: context,
       // ),

@@ -37,7 +37,7 @@ class _BookingScreenState extends State<BookingScreen> {
         body: SingleChildScrollView(
           child: Center(
               child: Container(
-                  padding: const EdgeInsets.all(8),
+                  padding: const EdgeInsets.all(20),
                   width: 400,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -126,10 +126,6 @@ class _BookingScreenState extends State<BookingScreen> {
                       BookingField(
                         label: 'Phone',
                       ),
-                      Divider(color: Colors.grey),
-                      const SizedBox(
-                        height: 10,
-                      ),
                       BookingField(
                         label: 'Address',
                       ),
@@ -140,11 +136,12 @@ class _BookingScreenState extends State<BookingScreen> {
                               cursorColor: Colors.black,
                               style: const TextStyle(color: Colors.black),
                               decoration: InputDecoration(
+                                contentPadding: EdgeInsets.all(8),
                                 labelText: "Postcode",
-                                border: OutlineInputBorder(
-                                    borderSide:
-                                        const BorderSide(color: Colors.black),
-                                    borderRadius: BorderRadius.circular(8)),
+                                // border: OutlineInputBorder(
+                                //     borderSide:
+                                //         const BorderSide(color: Colors.black),
+                                //     borderRadius: BorderRadius.circular(8)),
                               ),
                             ),
                           ),
@@ -156,11 +153,12 @@ class _BookingScreenState extends State<BookingScreen> {
                               cursorColor: Colors.black,
                               style: const TextStyle(color: Colors.black),
                               decoration: InputDecoration(
+                                contentPadding: EdgeInsets.all(8),
                                 labelText: "City",
-                                border: OutlineInputBorder(
-                                    borderSide:
-                                        const BorderSide(color: Colors.black),
-                                    borderRadius: BorderRadius.circular(8)),
+                                // border: OutlineInputBorder(
+                                //     borderSide:
+                                //         const BorderSide(color: Colors.black),
+                                //     borderRadius: BorderRadius.circular(8)),
                               ),
                             ),
                           ),
@@ -176,11 +174,12 @@ class _BookingScreenState extends State<BookingScreen> {
                               cursorColor: Colors.black,
                               style: const TextStyle(color: Colors.black),
                               decoration: InputDecoration(
+                                contentPadding: EdgeInsets.all(8),
                                 labelText: "State",
-                                border: OutlineInputBorder(
-                                    borderSide:
-                                        const BorderSide(color: Colors.black),
-                                    borderRadius: BorderRadius.circular(8)),
+                                // border: OutlineInputBorder(
+                                //     borderSide:
+                                //         const BorderSide(color: Colors.black),
+                                //     borderRadius: BorderRadius.circular(8)),
                               ),
                             ),
                           ),
@@ -192,11 +191,12 @@ class _BookingScreenState extends State<BookingScreen> {
                               cursorColor: Colors.black,
                               style: const TextStyle(color: Colors.black),
                               decoration: InputDecoration(
+                                contentPadding: EdgeInsets.all(8),
                                 labelText: "Country",
-                                border: OutlineInputBorder(
-                                    borderSide:
-                                        const BorderSide(color: Colors.black),
-                                    borderRadius: BorderRadius.circular(8)),
+                                // border: OutlineInputBorder(
+                                //     borderSide:
+                                //         const BorderSide(color: Colors.black),
+                                //     borderRadius: BorderRadius.circular(8)),
                               ),
                             ),
                           ),
@@ -322,10 +322,12 @@ class BookingField extends StatelessWidget {
           cursorColor: Colors.black,
           style: const TextStyle(color: Colors.black),
           decoration: InputDecoration(
+            contentPadding: EdgeInsets.all(8),
             labelText: label,
-            border: OutlineInputBorder(
-                borderSide: const BorderSide(color: Colors.black),
-                borderRadius: BorderRadius.circular(8)),
+            // border: UnderlineInputBorder(
+            //   borderSide: const BorderSide(color: Colors.black),
+            //   //borderRadius: BorderRadius.circular(8)
+            // ),
           ),
         ),
         const SizedBox(

@@ -13,3 +13,4 @@ export 'register_screen.dart';
 
 export 'waktuSolat_screen.dart';
 export 'select_date_screen.dart';
+export 'splash_screen.dart';
